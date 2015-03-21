@@ -1,4 +1,4 @@
-# docker-memcached
+# docker-ruby
 
 Minimal docker image for ruby. Built upon [docker-alpine](https://github.com/gliderlabs/docker-alpine).
 
@@ -12,7 +12,7 @@ Pull the image from Docker Hub:
 
 Run the image:
 
-    docker run -it --rm lumberyard/memcached
+    docker run -it --rm lumberyard/ruby
 
 ## Configuration
 
