@@ -6,14 +6,14 @@ Minimal docker image for ruby. Built upon [docker-alpine](https://github.com/gli
 
 Pull the image from Docker Hub:
 
-    docker pull lumberyard/ruby
+    docker pull brigand/ruby
 
 ## Usage
 
-Run the image:
+This is mostly useful as a base image (see brigand/docker-jekyll). 
 
-    docker run -it --rm lumberyard/ruby
+To run the image as is:
 
-## Configuration
+    docker run -it --rm brigand/ruby ash
 
-Coming soon.
+
